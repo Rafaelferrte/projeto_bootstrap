@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 1rem 0;
+    background-color: #fff;
+    /* border-bottom: solid 0.5px; */
+}
+
+#link{
+    font-weight: bold;
+    border-bottom: solid 2px transparent;
+    transition: all 0.1s;
+    text-align: center;
+    color:#136735;
+}
+
+#link:active, #link:focus{
+    
+    border-bottom: solid 2px #e81e23;
+}
+
+
+#logo{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+   
+}
+
+#conteudo_inicial{
+    background: #fff url("../imgs/ComidaFundo.jpg") no-repeat center scroll;
+    background-size: cover;
+    height: 80vh;
+
+}
+
+main{
+    background-color: #fff;
+    padding-top: 100px;
+}
+
+#container_principal{
+    width: 70%;
+}
+
+#titulo_principal{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    text-shadow: 2px 2px 4px #222020;
+    padding-bottom: 2%; 
+    letter-spacing: 1px;
+    
+
+}
+
+#span1{
+    font-weight: 800;
+    color:#e81e23;
+}
+
+#span2{
+    font-weight: 800;
+    color:#136735;
+}
+
+#subtitulo_principal{
+    color: #FFFAFA; 
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 1px 1px 3px #524f4f;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+#titulo_categoria{
+    padding-top: 6.5rem;
+    padding-bottom: 3rem;
+    font-weight: 700;
+    padding-left: 5%;
+}
+
+#card{
+    border: solid 1px #ccc;
+    box-shadow: 1px 1px 6px #555353;
+}
+
+/* História */
+
+/* Fim da História */
+
+@media only screen and (max-width: 320px)  {
+    #titulo_principal{
+        font-size: 40px;
+    }
+    #subtitulo_principal{
+        font-size: 15px;
+        text-shadow: 0.5px 0.5px 2px #524f4f;
+    }
+}
