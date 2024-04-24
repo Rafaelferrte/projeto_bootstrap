@@ -95,7 +95,13 @@ main{
 }
 
 /* História */
+#historia{
+    margin-top: 50px;
+}
 
+#hist_subtitulo{
+    padding-bottom: 40px;
+}
 /* Fim da História */
 
 @media only screen and (max-width: 320px)  {
