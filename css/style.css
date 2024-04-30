@@ -7,6 +7,7 @@
     margin: 0;
 }
 
+/* Cabeçalho */
 header{
     padding: 1rem 0;
     background-color: #fff;
@@ -41,6 +42,7 @@ header{
 
 }
 
+/* Principal */
 main{
     background-color: #fff;
     padding-top: 100px;
@@ -102,9 +104,21 @@ main{
 #hist_subtitulo{
     padding-bottom: 40px;
 }
+
+#cont-side{
+    padding-top: 100px;
+}
 /* Fim da História */
 
-@media only screen and (max-width: 320px)  {
+/* Rodapé */
+#rodape{
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+
+@media only screen and (max-width: 600px)  {
     #titulo_principal{
         font-size: 40px;
     }
