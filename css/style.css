@@ -5,6 +5,7 @@
     font-family: "Open Sans", sans-serif;
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 /* Cabeçalho */
@@ -112,8 +113,18 @@ main{
 
 /* Rodapé */
 #rodape{
+    background-color: #136735;
+    color: #fafafa;
     margin: 0 auto;
     text-align: left;
+}
+
+#roda-down{
+    width: 75%;
+}
+
+#rodape a {
+    color: #fafafa;
 }
 
 
