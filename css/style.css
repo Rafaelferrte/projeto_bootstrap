@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
+   
 }
 
 /* Cabeçalho */
@@ -101,9 +102,11 @@ main{
 
 #cont-his{
     margin-bottom: 50px;
+    text-align: justify;
 }
 #historia{
     margin-top: 50px;
+    padding-top: 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -132,6 +135,7 @@ main{
 
 #cont-side div{
     margin-top: 30px;
+    font-size: 21px;
 }
 
 #img-his{
